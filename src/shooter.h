@@ -3,6 +3,8 @@
 #include <iostream>
 using namespace std; using std::vector; using std::string;
 
+#ifndef SHOOTER_H
+#define SHOOTER_H
 class Shooter 
 {
 friend ostream& operator<<(std::ostream& out, const Shooter& shoot);
@@ -12,3 +14,4 @@ Roll* throw_die(Die& dice1, Die& dice2);
 private:
 vector<Roll*> rolls;
 };
+#endif

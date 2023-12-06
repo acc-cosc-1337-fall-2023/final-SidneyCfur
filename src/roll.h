@@ -1,6 +1,8 @@
 #include "die.h"
 #include <iostream>
 
+#ifndef ROLL_H
+#define ROLL_H
 class Roll
 {
 public:
@@ -14,3 +16,4 @@ Die& die2;
 bool rolled = false;
 int value;
 };
+#endif
