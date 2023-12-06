@@ -1,6 +1,7 @@
 #include <random>
 
-class die {
+class Die
+{
 public:
 void roll();
 int rolled_value()const{return(roll_value);}

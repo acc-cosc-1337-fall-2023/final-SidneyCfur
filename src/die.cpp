@@ -1,7 +1,7 @@
 #include "die.h"
 
-void die::roll()
+void Die::roll()
 {
-roll_value = (rand() % 6);
+roll_value = 1 + (rand() % sides);
 }
 
